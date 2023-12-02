@@ -1,9 +1,11 @@
-npm i typescript
+Rodar no terminal npm i typescript
 
-npx tsc --init (cria arquivo de configuração)
+Iniciar projeto JS - npm init 
+
+Iniciar aplicação Typescript npx tsc --init (cria arquivo de configuração)
 
 ir no arquivo tsconfig e descomentar e configurar o atributo outdir (especificar a pasta que o arquivo JavaScript vai receber o codigo ts transpilado)
 
 npx tsc
 
-npx tsc --watch (sempre que salvar o código ele vai transpilar TS o código pra um arquivo JS)
+ir no Package json em Scripts e criar um atributo como "start": "npx tsc --watch" (sempre que salvar o código ele vai transpilar TS o código pra um arquivo JS)
