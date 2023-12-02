@@ -2,7 +2,7 @@ npm i typescript
 
 npx tsc --init (cria arquivo de configuração)
 
-ir no arquivo tsconfig e descomentar a configurar o atributo outdir (especificar a pasta que o arquivo JavaScript vai receber o codigo ts transpilado)
+ir no arquivo tsconfig e descomentar e configurar o atributo outdir (especificar a pasta que o arquivo JavaScript vai receber o codigo ts transpilado)
 
 npx tsc
 
