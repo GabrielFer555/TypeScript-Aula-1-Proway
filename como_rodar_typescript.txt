@@ -11,3 +11,5 @@ npx tsc
 ir no Package json em Scripts e criar um atributo como "start": "npx tsc --watch" (sempre que salvar o código ele vai transpilar TS o código pra um arquivo JS)
 
 Documentação: https://www.typescriptlang.org/download
+
+Happy Coding!
